@@ -7,7 +7,8 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 
 
 # Carregar os dados
-data = np.loadtxt('IA_TP2/spambase/spambase.data', delimiter=',')
+data = np.loadtxt('C:\\Users\\leavi\\Documents\\UFOP\\Inteligencia Artificial\\IA_TP2\\spambase\\spambase.data', delimiter=',')
+
 
 # Separar features e labels
 X = data[:, :-1]
